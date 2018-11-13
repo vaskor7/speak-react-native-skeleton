@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
 })
 
 const seznam = [
-  {jmeno: "Havel", hlaska: "asfdss"}, 
-  {jmeno:"Klaus", hlaska: "aajndas"}, 
-  {jmeno:"Zeman", hlaska: "asdnsaijnda"}, 
-  {jmeno:"Gottwald", hlaska:"asdasfgre"}
+  {jmeno: "Havel", hlaska: "Jsi zasranej pravdoláskař"}, 
+  {jmeno:"Klaus", hlaska: "Lepší než Havel, ale nemáš být gay"}, 
+  {jmeno:"Zeman", hlaska: "ANO!!!!"}, 
+  {jmeno:"Gottwald", hlaska:"Skoro trefa!"}
 ]
 
 
@@ -68,10 +68,3 @@ export default class RootContainer extends React.PureComponent<null> {
     )
   }
 }
-/*
-render(){
-  const nejakyList = [“pepa”, “venca”, “karel"]
-  return (
-    nejakyList.map((jmeno) => <MojeKomponenta data={jmeno} />)
-  )
-}*/
